@@ -1,1 +1,4 @@
 base = inport("Enter your base: ")
+exponent = ("Enter an exponent: ")
+result = float(base) ** float(exponent)
+print(f"{base} Rais to the power {exponent} = {result}")
